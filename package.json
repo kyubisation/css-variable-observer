@@ -1,0 +1,16 @@
+{
+  "name": "css-variable-observer",
+  "version": "0.0.0",
+  "description": "An implementation for a CSS variable observer, similar to MutationObserver",
+  "main": "index.js",
+  "repository": "https://github.com/kyubisation/css-variable-observer.git",
+  "author": "Lukas Spirig <lukas.spirig@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "esbuild --bundle src/index.ts --outfile=serve/main.js --servedir=serve"
+  },
+  "devDependencies": {
+    "esbuild": "0.17.14",
+    "typescript": "5.0.2"
+  }
+}
